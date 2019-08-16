@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Olafs.OAuth</id>
+    <title>Olafs.OAuth</title>
+    <version>1.0.0.0</version>
+    <authors>Jariah Holsapple</authors>
+    <owners>Jariah Holsapple</owners>
+    <projectUrl>https://github.com/jariahh/Olafs.OAuth</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A Simple OAuth2 plugin</description>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="11.0.1" />
+    </dependencies>
+    <license type="file">license.txt</license>
+    <repository type="git" url="https://github.com/jariahh/Olafs.OAuth.git" />
+  </metadata>
+  <files>
+    <file src="bin\Release\Olafs.OAuth2.dll" target="lib/net46/Olafs.OAuth2.dll"/>
+    <file src="license.txt"/>
+  </files>
+</package>
